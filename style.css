@@ -1,0 +1,33 @@
+.flex-container {
+    border: 2px solid #333;
+    padding: 10px;
+    min-height: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flex-item {
+    border: 1px solid rgb(133, 133, 239);
+    margin: 5px;
+    padding: 15px;
+    text-align: center;
+    font-weight: bold;
+        width: 250px;
+}
+
+#child-1 {
+    background-color: rgb(246, 208, 208);
+}
+
+.child-2 {
+    background-color: rgb(177, 245, 177);
+}
+
+.child-3 {
+    background-color: rgb(164, 164, 242);
+}
+
+.child-4 {
+    background-color: rgb(238, 94, 238);
+}
